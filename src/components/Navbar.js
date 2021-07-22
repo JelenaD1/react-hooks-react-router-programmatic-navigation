@@ -15,6 +15,7 @@ function Navbar({ setIsLoggedIn }) {
 
   function handleLogout() {
     setIsLoggedIn(false);
+    console.log("HELLO")
     history.push("/login");
   }
 
